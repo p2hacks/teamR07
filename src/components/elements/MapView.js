@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/MapView.css';
+import '../../styles/MapView.css';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 
 class MapView extends React.Component {  

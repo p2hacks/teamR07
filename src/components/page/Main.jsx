@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import Home from './Home';
 import AnimeMatching from './AnimeMatching';
 import ChurchDetail from './ChurchDetail';
+import Map_C from './Map_C';
 
 
 
@@ -13,6 +14,7 @@ const Main = () => {
     <Route exact path='/home' component={Home} />
     <Route path='/anime' component={AnimeMatching} />
     <Route path='/church' component={ChurchDetail} />
+    <Route path='/mapC' component={Map_C} />
     </div>
   )
 }
