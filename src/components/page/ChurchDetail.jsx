@@ -1,10 +1,10 @@
 import React from 'react';
-
+import AllCard from '../areas/AllCard'
 
 const ChurchDetail = () => {
     return (
         <div id='main'>
-          教会だお
+          <AllCard/>
         </div>
     )
 }
