@@ -30,7 +30,7 @@ const Card_C = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              正ハリストス教会
+              聖ハリストス教会
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
             エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう

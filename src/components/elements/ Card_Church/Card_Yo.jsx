@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import Harisutosu from '../../../images/教会画像/リラノート.jpg';
+import Harisutosu from '../../../images/教会画像/ヨハネ.jpg';
 
 const useStyles = makeStyles({
   card: {
@@ -30,7 +30,7 @@ const Card_C = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-リラノート
+函館聖ヨハネ教会
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
             エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
