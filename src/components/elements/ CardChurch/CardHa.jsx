@@ -25,27 +25,27 @@ const Card_C = () => {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image= {Harisutosu}
+          image={Harisutosu}
           title="Contemplative Reptile"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              聖ハリストス教会
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            聖ハリストス教会
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p">
             エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
             </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button size="small" color="primary">
-            詳細情報
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary">
+          詳細情報
           </Button>
-          <Button size="small" color="primary">
-            ここへ行く
+        <Button size="small" color="primary">
+          ここへ行く
           </Button>
-        </CardActions>
-      </Card>
-    );
-  }
-  export default Card_C;
+      </CardActions>
+    </Card>
+  );
+}
+export default Card_C;
