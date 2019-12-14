@@ -30,7 +30,7 @@ const Card_C = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-パーフェクトリバティー教団函館
+パーフェクトリバティー教団
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
             エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
