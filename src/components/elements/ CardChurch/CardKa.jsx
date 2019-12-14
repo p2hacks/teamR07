@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Harisutosu from '../../../images/教会画像/カトリック教会.jpg';
+import '../../../styles/elements/CardKa.css';
 
 const useStyles = makeStyles({
   card: {
@@ -22,6 +23,7 @@ const Card_C = () => {
 
   return (
     <Card className={classes.card}>
+       <a href="https://www.hakobura.jp/db/db-view/2011/04/post-60.html">
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -33,17 +35,20 @@ const Card_C = () => {
             カトリック函館元町教会      
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
+            今でも多くの信者が通う神聖な教会。祭壇はローマ法王から送られた貴重なもの。ここで煩悩を捨てて祈れ。
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions>
           <Button size="small" color="primary">
             詳細情報
           </Button>
+          <a href="https://goo.gl/maps/85rxH7daGegaJgALA">
           <Button size="small" color="primary">
             ここへ行く
           </Button>
+          </a>
         </CardActions>
       </Card>
     );
