@@ -7,7 +7,7 @@ import CardPa from '../elements/ CardChurch/CardPa';
 import CardYo from '../elements/ CardChurch/CardYo';
 import '../../styles/areas/AllCard.css';
 import { name, url, image, description, latitude, longitude } from "../../database/Realbase"
-import { Route, Link } from "react-router-dom";
+//import Link from "react-router-dom";
 /*const AllCard = () => {
     return (
       <div id='cards'>
@@ -51,7 +51,7 @@ class AllCard extends React.Component {
   clickHandler(id) { 
     switch (id) { 
       case 1:
-        this.setState(
+        /*this.setState(
           {
             name: name(id),
             url: url(id),
@@ -60,7 +60,7 @@ class AllCard extends React.Component {
             latitude: latitude(id),
             longitude: longitude(id)
           }
-        );
+        );*/
         break;
       case 2:
         break;
@@ -78,42 +78,28 @@ class AllCard extends React.Component {
   }
   render() { 
     return (
-      <Route exact path='/church'>
       <div id='cards'>
         <div id='cardsContainer'>
-          <Link to = 'church/churchPage'>
           <div id='HaArea'>
             <CardHa onClick={this.clickHandler(1)}/>
           </div>
-          </Link>
-          <Link to = 'church/churchPage'>
           <div id='KaArea'>
                <CardKa  onClick={this.clickHandler(2)}/>
           </div>
-          </Link>
-          <Link to = 'church/churchPage'>
           <div id='KitokuArea'>
                 <CardKitoku onClick={this.clickHandler(3)}/>
           </div>
-          </Link>
-          <Link to = 'church/churchPage'>
           <div id='MiraArea'>
                 <CardMira onClick={this.clickHandler(4)}/>
-            </div>
-            </Link>
-          <Link to = 'church/churchPage'>
+          </div>
           <div id='PaArea'>
                 <CardPa onClick={this.clickHandler(5)}/>
-            </div>
-          </Link>
-          <Link to = 'church/churchPage'>
+          </div>
           <div id='YoArea'>
                 <CardYo onClick={this.clickHandler(6)}/>
           </div>
-          </Link>
         </div>     
-        </div>
-        </Route>
+      </div>
     );
   }
 }
