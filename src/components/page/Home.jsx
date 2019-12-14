@@ -4,10 +4,10 @@ import Kurifan from '../../images/kurifan.jpeg';
 import Station from '../../images/station.jpg';
 import Yakei from '../../images/yakei.jpeg';
 
+
 const Home = () => {
   return (
     <div id='main'>
-
       <title>函館のクリスマスおすすめスポット紹介</title>
       <div id='BodyMain'>
         <article class="articleDetail">

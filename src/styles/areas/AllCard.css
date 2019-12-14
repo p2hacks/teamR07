@@ -2,10 +2,9 @@
 
 #cardsContainer {
     display: grid;
-    height: auto;
-    width:auto;
+   
     grid-template-rows: 350px 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:　500px 1fr 500px;
   }
   #HaArea {
     grid-row: 1 / 2;
