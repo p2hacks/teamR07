@@ -29,11 +29,9 @@ class MapView extends React.Component {
                         attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                     />
 
-                    <Marker position={hukuonkan} icon={myIcon} >
-                        <Popup>函館キリスト伏音福音館</Popup>
-                    </Marker>
+
                     <Marker position={harisutosu} icon={myIcon} >
-                        <Popup>函館ハリストス正教</Popup>
+                        <Popup>聖ハリストス正教会</Popup>
                     </Marker>
                     <Marker position={yohane} icon={myIcon} >
                         <Popup>函館聖ヨハネ教会</Popup>
