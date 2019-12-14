@@ -1,5 +1,5 @@
-import firebase from "firebase";
-import database from "./fireabse.js";
+//import firebase from "firebase";
+import database from "./Firebase.js";
 
 
 export function name(id) { 
