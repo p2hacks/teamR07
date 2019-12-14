@@ -1,34 +1,23 @@
 //import firebase from "firebase";
-import database from "./Firebase.js";
+import { database } from "./Firebase.js";
 
 
 export function name(id) { 
-    return database.ref('/' + id).once('name',function(snapshot){
-        console.log('name', snapshot.val())
-    });
+    //database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().name)} )
+    return database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().name)} )
 }
 export function url(id) { 
-    return database.ref('/' + id).once('url',function(snapshot){
-        console.log('url', snapshot.val())
-    });
+    database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().url)} )
 }
 export function image(id) { 
-    return database.ref('/' + id).once('image',function(snapshot){
-        console.log('imade', snapshot.val())
-    });
+    database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().image)} )
 }
 export function description(id) { 
-    return database.ref('/' + id).once('description',function(snapshot){
-        console.log('description', snapshot.val())
-    });
+    database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().description)} )
 }
 export function latitude(id) { 
-    return database.ref('/' + id).once('latitude', function (snapshot) { 
-        console.log('latitude', snapshot.val())
-    })
+    database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().latitude)} )
 }
 export function longitude(id) { 
-    return database.ref('/' + id).once('longitude',function(snapshot){
-        console.log('longitude', snapshot.val())
-    });
+    database.ref('/0/church/' + id).once('value').then((data) => { console.log(data.val().longitude)} )
 }
