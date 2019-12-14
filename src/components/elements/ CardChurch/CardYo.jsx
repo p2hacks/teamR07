@@ -8,7 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Harisutosu from '../../../images/教会画像/ヨハネ.jpg';
-
+import '../../../styles/elements/CardYo.css';
 const useStyles = makeStyles({
   card: {
     maxWidth: 345,
@@ -22,6 +22,7 @@ const Card_C = () => {
 
   return (
     <Card className={classes.card}>
+       <a href= "https://www.hakobura.jp/db/db-view/2011/04/post-75.html" target="_blank">
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -37,6 +38,7 @@ const Card_C = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions>
           <Button size="small" color="primary">
             詳細情報

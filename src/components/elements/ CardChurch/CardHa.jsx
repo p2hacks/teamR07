@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Harisutosu from '../../../images/教会画像/ハリストス.jpg';
+import '../../../styles/elements/CardHa.css';
 
 const useStyles = makeStyles({
   card: {
@@ -22,6 +23,7 @@ const Card_C = () => {
 
   return (
     <Card className={classes.card}>
+       <a href="http://orthodox-hakodate.jp/">
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -37,6 +39,7 @@ const Card_C = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        </a>
         <CardActions>
           <Button size="small" color="primary">
             詳細情報
