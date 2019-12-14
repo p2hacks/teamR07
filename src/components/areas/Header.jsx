@@ -7,9 +7,9 @@ import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Home from '../page/Home';
-import AnimeMatching from '../page/AnimeMatching';
+//import AnimeMatching from '../page/AnimeMatching';
 import ChurchDetail from '../page/ChurchDetail';
-import Map_C from '../page/Map_C';
+import MapC from '../page/MapC';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -34,12 +34,12 @@ TabPanel.propTypes = {
   value: PropTypes.any.isRequired,
 };
 
-function a11yProps(index) {
+/*function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
     'aria-controls': `simple-tabpanel-${index}`,
   };
-}
+}*/
 
 
 const useStyles = makeStyles({
@@ -77,7 +77,7 @@ const Header = () => {
         <ChurchDetail />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <Map_C />
+        <MapC />
       </TabPanel>
       {/*      <div >
                 <a href={"/home"} >HOME</a>
