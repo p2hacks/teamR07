@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React/*, { useEffect } */from 'react';
 import { Route } from 'react-router-dom';
 import Home from './Home';
 import AnimeMatching from './AnimeMatching';
 import ChurchDetail from './ChurchDetail';
-import Map_C from './Map_C';
+import Map_C from './MapC';
 
 
 
