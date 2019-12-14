@@ -3,6 +3,9 @@ import '../../styles/MapView.css';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from "leaflet";
 import marker_icon from '../../images/chapel.png';
+import maker_yama from '../../images/mountain.png';
+import maker_tree from '../../images/christmastree.png';
+import maker_eki from '../../images/illumination.png';
 class MapView extends React.Component {
 
     render() {
@@ -12,8 +15,29 @@ class MapView extends React.Component {
         const kyoudan = [41.764786, 140.713445]
         const bey = [41.767788, 140.717532]
         const perfect = [41.770700, 140.72477]
+        const yama = [41.759595, 140.703885]
+        const eki = [41.773772, 140.726357]
+        const renga = [41.767006, 140.717216]
         const myIcon = L.icon({
             iconUrl: marker_icon,
+            iconSize: [50, 50],
+            iconAnchor: [25, 50],
+            popupAnchor: [-3, -76],
+        });
+        const ekiIcon = L.icon({
+            iconUrl: maker_eki,
+            iconSize: [50, 50],
+            iconAnchor: [25, 50],
+            popupAnchor: [-3, -76],
+        });
+        const rengaIcon = L.icon({
+            iconUrl: maker_tree,
+            iconSize: [50, 50],
+            iconAnchor: [25, 50],
+            popupAnchor: [-3, -76],
+        });
+        const yamaIcon = L.icon({
+            iconUrl: maker_yama,
             iconSize: [50, 50],
             iconAnchor: [25, 50],
             popupAnchor: [-3, -76],
@@ -44,6 +68,15 @@ class MapView extends React.Component {
                     </Marker>
                     <Marker position={perfect} icon={myIcon} >
                         <Popup>パーフェクトリバティー教団函館教会</Popup>
+                    </Marker>
+                    <Marker position={yama} icon={yamaIcon} >
+                        <Popup>函館山</Popup>
+                    </Marker>
+                    <Marker position={renga} icon={rengaIcon} >
+                        <Popup>クリスマスファンタジー</Popup>
+                    </Marker>
+                    <Marker position={eki} icon={ekiIcon} >
+                        <Popup>函館駅前広場</Popup>
                     </Marker>
 
                 </Map>
