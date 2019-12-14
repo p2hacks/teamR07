@@ -29,6 +29,7 @@ const AllCard = () => {
         <Card_Yo/>
         </div>
         </div>
+     
       </div>
     )
   }
