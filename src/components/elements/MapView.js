@@ -14,11 +14,9 @@ class MapView extends React.Component {
         const bey = [41.767788, 140.717532]
         const perfect = [41.770700, 140.72477]
         const myIcon = L.icon({
-            // /Users/wakamatsutaketo/Desktop/teamR07/src/components/elements/MapView.js
-            // / Users / wakamatsutaketo / Desktop / teamR07 / src / images / pin.jpeg
             iconUrl: marker_icon,
-            iconSize: [30, 30],
-            iconAnchor: [22, 94],
+            iconSize: [50, 50],
+            iconAnchor: [25, 50],
             popupAnchor: [-3, -76],
         });
         return (
@@ -29,11 +27,9 @@ class MapView extends React.Component {
                         attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
                     />
 
-                    <Marker position={hukuonkan} icon={myIcon} >
-                        <Popup>函館キリスト伏音福音館</Popup>
-                    </Marker>
+
                     <Marker position={harisutosu} icon={myIcon} >
-                        <Popup>函館ハリストス正教</Popup>
+                        <Popup>聖ハリストス正教会</Popup>
                     </Marker>
                     <Marker position={yohane} icon={myIcon} >
                         <Popup>函館聖ヨハネ教会</Popup>
