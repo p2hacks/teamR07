@@ -6,7 +6,6 @@ import marker_icon from '../../images/chapel.png';
 class MapView extends React.Component {
 
     render() {
-        const hukuonkan = [41.776143, 140.730720]
         const harisutosu = [41.762986, 140.712168]
         const yohane = [41.762650, 140.712801]
         const katorikku = [41.763690, 140.713262]

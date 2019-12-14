@@ -23,34 +23,34 @@ const Card_C = () => {
 
   return (
     <Card className={classes.card}>
-       <a href="http://orthodox-hakodate.jp/">
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image= {Harisutosu}
-          title="Contemplative Reptile"
+      <a href="http://orthodox-hakodate.jp/">
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={Harisutosu}
+            title="Contemplative Reptile"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
               聖ハリストス教会
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-          夜に見るここからの景色は美しいです。でもあなたは一人か男友達としか見れないんでしょうね。ドンマイ
+              夜に見るここからの景色は美しいです。でもあなたは一人か男友達としか見れないんでしょうね。ドンマイ
             </Typography>
           </CardContent>
         </CardActionArea>
-        </a>
-        <CardActions>
-          <Button size="small" color="primary">
-            詳細情報
+      </a>
+      <CardActions>
+        <Button size="small" color="primary">
+          詳細情報
           </Button>
-          <a href="https://goo.gl/maps/kA6WaPiT3FhNqNya6">
+        <a href="https://goo.gl/maps/kA6WaPiT3FhNqNya6">
           <Button size="small" color="primary">
             ここへ行く
           </Button>
-          </a>
-        </CardActions>
-      </Card>
-    );
-  }
-  export default Card_C;
+        </a>
+      </CardActions>
+    </Card>
+  );
+}
+export default Card_C;

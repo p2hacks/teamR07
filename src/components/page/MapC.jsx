@@ -1,6 +1,6 @@
 import React from 'react';
 import MapView from '../elements/MapView';
-import '../../styles/page/Map_C.css';
+import '../../styles/page/MapC.css';
 
 const MapC = () => {
     const position = [41.773642, 140.726565]
