@@ -44,9 +44,11 @@ const Card_C = () => {
           <Button size="small" color="primary">
             詳細情報
           </Button>
+          <a href="https://goo.gl/maps/qydF8Sg4E9DY4iw77">
           <Button size="small" color="primary">
             ここへ行く
           </Button>
+          </a>
         </CardActions>
       </Card>
     );
