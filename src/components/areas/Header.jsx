@@ -65,19 +65,25 @@ const Header = () => {
           textColor="primary"
           centered
         >
+             <a href={"/home"} >
           <Tab label="HOME" />
+          </a>
+          <a href={"/church"} >
           <Tab label="教会" />
+          </a>
+          <a href={"/map_c"} >
           <Tab label="地図" />
+          </a>
         </Tabs>
       </Paper>
       <TabPanel value={value} index={0}>
-        <Home />
+      
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <ChurchDetail />
+       
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <MapC />
+       
       </TabPanel>
       {/*      <div >
                 <a href={"/home"} >HOME</a>
