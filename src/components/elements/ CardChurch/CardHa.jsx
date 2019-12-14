@@ -33,7 +33,7 @@ const Card_C = () => {
               聖ハリストス教会
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
+          夜に見るここからの景色は美しいです。でもあなたは一人か男友達としか見れないんでしょうね。ドンマイ
             </Typography>
           </CardContent>
         </CardActionArea>

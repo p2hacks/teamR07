@@ -33,7 +33,7 @@ const Card_C = () => {
 函館聖ヨハネ教会
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
+           上から見ると屋根が十字架になっている。下から見ては屋根はうまく見れません。
             </Typography>
           </CardContent>
         </CardActionArea>

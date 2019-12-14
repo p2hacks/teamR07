@@ -33,7 +33,7 @@ const Card_C = () => {
 パーフェクトリバティー教団
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
+            大正時代に立教された宗教団体。
             </Typography>
           </CardContent>
         </CardActionArea>

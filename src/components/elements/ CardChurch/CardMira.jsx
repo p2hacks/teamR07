@@ -33,7 +33,7 @@ const Card_C = () => {
 リラノート
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
+            結婚式などに使われる場所です。あなたには縁がない場所ですね
             </Typography>
           </CardContent>
         </CardActionArea>

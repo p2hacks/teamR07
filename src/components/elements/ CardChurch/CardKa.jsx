@@ -33,7 +33,7 @@ const Card_C = () => {
             カトリック函館元町教会      
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-            エッチな場所です。クリスマスにここにくるのは童貞かクリボッチくらいでしょう
+            今でも多くの信者が通う神聖な教会。祭壇はローマ法王から送られた貴重なもの。ここで煩悩を捨てて祈れ。
             </Typography>
           </CardContent>
         </CardActionArea>
