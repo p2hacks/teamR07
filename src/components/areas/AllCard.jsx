@@ -7,7 +7,7 @@ import CardPa from '../elements/ CardChurch/CardPa';
 import CardYo from '../elements/ CardChurch/CardYo';
 import '../../styles/areas/AllCard.css';
 import { Route } from 'react-router-dom';
-import { name, url, image, description, latitude, longitude } from "../../database/Realbase"
+//import { name, url, image, description, latitude, longitude } from "../../database/Realbase"
 //import Link from "react-router-dom";
 /*const AllCard = () => {
     return (

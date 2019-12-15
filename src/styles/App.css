@@ -1,8 +1,9 @@
 @import '../../node_modules/leaflet/dist/leaflet.css';
 
 .leaflet-container {
-  width: calc(100vw - 50px);
-  height: calc(100vh - 100px);
+  width: calc(100vw );
+  /* - 50px */
+  height: calc(100vh - 150px);
   z-index: 0;
 }
 

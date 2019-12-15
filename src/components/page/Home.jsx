@@ -36,7 +36,7 @@ const Home = () => {
             <li id="Spot">函館山</li>
             <p id="Description">クリスマスだからと言って特にいつもの夜景と変化はありせんがおすすめです。</p>
             <p id="Description">冬に函館の夜景をみたことがないという方には是非おすすめ！！天候に左右されやすいですが、冬の方が夏などよりも空気中のゴミなどがないのでよりきれいに見えるでしょう！</p>
-            <a href="https://334.co.jp/"><br></br>詳しく知りたい方はこちら</a>
+            <a href={"https://334.co.jp/"}><br></br>詳しく知りたい方はこちら</a>
             <img id="Picture"
               title="Mount Hakodate"
               src={Yakei}

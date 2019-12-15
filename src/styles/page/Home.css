@@ -3,13 +3,13 @@
 .username,
 .password {
   display: block;
-  width: 300px;
+  width: 700px;
   margin: 20px auto;
 }
-#main {
+/* #main {
 	width: 980px;
 	margin: 0 auto;
-}
+} */
 
 #Picture{
   width: 600px;
@@ -59,12 +59,13 @@
 }
 #BodyMain {
 	width: 720px;
+	margin-left: 200px;
 	float: left;
 }
 
-#BodyMain .articleDetail{
+/* #BodyMain .articleDetail{
 	margin: 50px 0;
-}
+} */
 
 #pageBodySub {
 	width: 220px;
@@ -74,7 +75,8 @@
 
 
 #BodySub {
-  margin-top: 40px;
+  margin-top: 100px;
+  margin-right: 200px;
   width: 220px;
 	float: right;
 }
@@ -90,6 +92,7 @@
 }
 #BodySub .eventsList ul li time {
 	font-weight: bold;
+	margin-bottom: 60;
 	display: block;
 }
 #introduction{
