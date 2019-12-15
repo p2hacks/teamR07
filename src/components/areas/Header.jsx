@@ -40,8 +40,6 @@ TabPanel.propTypes = {
     'aria-controls': `simple-tabpanel-${index}`,
   };
 }*/
-
-
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
